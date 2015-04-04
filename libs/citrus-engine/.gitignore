@@ -1,0 +1,6 @@
+ant/ant
+ant/flexsdk/
+build.sh
+ce-asdoc/tempdita/
+ce-asdoc/toplevel.xml
+src/citrus/core/starling/old/
