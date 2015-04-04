@@ -8,6 +8,7 @@ if test -f "/home/air/bin/$1" ; then
         su air -c "Xorg -noreset +extension GLX +extension RANDR +extension RENDER -logfile ./xorg.0.log -config /xorg.conf :0" &
         sleep 2
         export DISPLAY=:0
+	export WINEDEBUG=-all
     fi
 
     su air -c "/home/air/bin/$*"
